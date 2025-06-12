@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
   if (!filename || !content) return res.status(400).json({ error: 'Missing filename or content' });
 
-  const repo = 'TU_USUARIO/TU_REPO';
+  const repo = 'Deylin-Eliac/Upload-files-/';
   const branch = 'main';
   const token = process.env.GITHUB_TOKEN;
 
